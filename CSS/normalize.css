@@ -31,9 +31,10 @@
   /**
    * Render the `main` element consistently in IE.
    */
-  
-  main {
-    display: block;
+   @media only screen and (max-width: 600px) {
+    main {
+      display: block;
+    }
   }
   
   /**
@@ -82,7 +83,7 @@ p {
 }
 
   #mypic { float: right;
-    max-width: 100%;
+    max-width: 80%;
   }
   
   /* Grouping content
