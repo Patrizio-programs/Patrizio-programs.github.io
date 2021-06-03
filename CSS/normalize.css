@@ -12,6 +12,7 @@
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
     background-color: black;
+
   }
   
   /* Sections
@@ -22,7 +23,9 @@
    */
   
   body {
-    margin: 0;
+    margin: 15px;
+
+
   }
   
   /**
