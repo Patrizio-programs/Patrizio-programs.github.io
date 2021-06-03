@@ -79,7 +79,7 @@ p {
 }
 
   #mypic { float: right;
-
+    max-width: 100%;
   }
   
   /* Grouping content
