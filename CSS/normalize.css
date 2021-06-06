@@ -23,7 +23,7 @@
    */
   
   body {
-    margin: 15px;
+  margin: 0;
 
 
   }
@@ -54,7 +54,7 @@
   }
 
   h2 {
-    color: #0504aa    ;
+    color: White    ;
     font-family: 'Merriweather', serif;
     font-size: 3em;
 
@@ -70,11 +70,14 @@
 }
   
 li {
-  color: #0504aa;
+  color: white;
   font-family: 'Libre Baskerville', serif;
   font-size: medium;
   font-size: 30px;
 
+}
+a {
+  color: white;
 }
 
 p {
