@@ -391,7 +391,9 @@ color: #0504aa    ;
     background-color: #CD7A00;
     padding: 3px;
     margin:0;
-text-align: center;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
 }
 
 
@@ -399,6 +401,7 @@ p
 {
         color:#0504aa;
     text-align: center;
+    font-family: 'Libre Baskerville', serif;
 }
 
 footer {
