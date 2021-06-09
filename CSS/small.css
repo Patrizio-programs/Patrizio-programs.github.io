@@ -3,7 +3,11 @@ main
 display: grid;
 grid-template-columns: 1fr;
 grid-row: 2;
+}
 
+html 
+{
+    background-color: whitesmoke;
 }
 
 section {
@@ -53,4 +57,12 @@ footer {
     height: auto;
     margin: 0 auto;
     max-width: 900px;
+    
+}
+footer p 
+{
+    color: black;
+}
+footer a{
+    color: white;
 }
