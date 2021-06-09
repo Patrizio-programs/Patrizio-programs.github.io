@@ -35,27 +35,30 @@
   /**
    * Render the `main` element consistently in IE.
    */
-   @media screen and (max-width: 800px)
+   @media (max-width: 800px) and (min-width: 686px)
     {
       #mypic 
       { 
       float: none;
       max-width: 100%;
       height: auto;
-      vertical-align: middle;
-    }
-    h1 
-    {
-      
-      font-size: 3.5em;   
-    }
+      display: block;
 
-    h2 
-    {
-      font-size: 1.5em;
+    }
+    
+    li{
+      font-size: 2vw;
     }
 
   
+  }
+
+  @media (max-width: 685px) 
+  {
+    #mypic {
+      width: 50%;
+      height: 50%;
+    }
   }
   
   /**
@@ -91,7 +94,13 @@
     margin: 0 auto;
     max-width: 900px;
 }
-  
+
+
+ul {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-row-gap: 20px;
+}
 li {
   color: white;
   font-family: 'Libre Baskerville', serif;
