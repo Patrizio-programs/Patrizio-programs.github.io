@@ -4,8 +4,18 @@ html {
 
 h1
 { color: #cdcd00;
+    margin-left: 10%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  
+}
+picture {
+    margin-left: 10%;
 }
 main{
+    padding: 10px;
     max-width: 80%;
     background-color: white;
     margin: 0 auto;
@@ -13,4 +23,10 @@ main{
 
 p{
     color: #1a009c;
+}
+header {
+    display: grid;
+    grid-auto-columns: min-content;
+    grid-template-rows: 1fr;
+    margin-left: 10%;
 }
