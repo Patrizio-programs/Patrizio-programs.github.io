@@ -62,10 +62,11 @@ nav ul li a{
 
 nav ul li.active a{
   background-color: rgba(0, 0, 0, .2);
+
 }
 
 nav ul li a:hover{
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, .4);
 }
 
 nav ul.hidden {display: none;}
