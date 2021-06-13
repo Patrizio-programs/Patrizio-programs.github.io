@@ -9,6 +9,24 @@
     
     }
 
+h1
+{
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+nav ul li a{
+    font-size: 1.2em
+}
+
+
 
 nav ul.hidden {display: grid;}
 
