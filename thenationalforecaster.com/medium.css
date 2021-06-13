@@ -1,0 +1,17 @@
+@media only screen and (min-width: 500px) {
+    nav button {display:none}
+  
+
+    ul {display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+    
+    }
+
+
+nav ul.hidden {display: grid;}
+
+
+
+}
