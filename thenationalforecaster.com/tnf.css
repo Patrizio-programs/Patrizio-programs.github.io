@@ -11,7 +11,10 @@
 h1
 { color: #cdcd00;
     margin-left: 10%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 2em;
 }
+h2
 img {
     max-width: 100%;
     height: auto;
@@ -36,6 +39,8 @@ main{
 
 p{
     color: #1a009c;
+    font-family: 'Biryani', sans-serif;
+    font-size: 1em;
 }
 #Branding {
     display: grid;
