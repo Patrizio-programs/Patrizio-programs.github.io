@@ -7,16 +7,10 @@
  *    without disabling user zoom.
  */
 
- @media only screen and (max-width: 450px) {
-  img{ width: 30px;
-     height: 30px;
-     
-    
-  }
   h1 {
     font-size: 1.5em;
   }
-  }
+  
 
 html {
     font-family: sans-serif; /* 1 */
@@ -39,13 +33,20 @@ h2 {
 
 }
 
-img {
+picture img #Logo{
     max-width: 100%;
     height: auto;
     float: left;
     grid-column: 1;
 
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+
+}
+
 
 #Logo {
     grid-column: 1;
