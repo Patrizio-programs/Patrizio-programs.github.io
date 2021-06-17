@@ -29,8 +29,12 @@ h1
 }
 h2 {
   font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 1.5em;
+  font-size: 2;
 
+}
+h3 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 1em;
 }
 
 picture img #Logo{
@@ -105,7 +109,7 @@ nav ul li.active a{
 }
 
 nav ul li a:hover{
-  background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 nav ul.hidden {display: none;}
@@ -139,6 +143,61 @@ p{
 
 footer p{
   color: #cdcd00;
+}
+
+#examples{
+  border: 1px solid black;
+}
+
+#SH{
+  background-color: #006400;
+  color: #cdcd00;
+  padding: 5px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 3em;
+}
+
+#PN {
+  color: #cdcd00;
+  padding: 5px;
+  background-color: #9E0E0E;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+#FN {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  background-color: #006400;
+  color: #cdcd00;
+  font-size: 2em;
+
+  
+}
+
+
+#H1 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 3em;
+  color: black;
+
+}
+
+#H2 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 2em;
+  color: black;
+
+}
+
+#H3 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 1em;
+}
+
+#P {
+  color: #1a009c;
+  font-family: 'Biryani', sans-serif;
+  font-size: 1.1em;
+
 }
 
 
