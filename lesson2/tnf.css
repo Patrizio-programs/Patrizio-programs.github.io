@@ -7,10 +7,6 @@
  *    without disabling user zoom.
  */
 
-  h1 {
-    font-size: 1.5em;
-  }
-  
 
 html {
     font-family: sans-serif; /* 1 */
@@ -28,7 +24,7 @@ h1
 }
 h2 {
   font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 2;
+  font-size:1.5em;
 
 }
 h3 {
@@ -71,7 +67,6 @@ nav ul{
   margin-bottom: 0;
   background-color: #9E0E0E;
   
-
 }
 
 
@@ -83,10 +78,6 @@ nav button{
   color: #cdcd00;
   float: right;
 
-
-  
-   
-  
 
 }
 

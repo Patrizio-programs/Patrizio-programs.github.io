@@ -1,0 +1,35 @@
+@media only screen and (min-width: 720px) {
+    button {display:none}
+ 
+
+   ul {display: grid;
+       grid-template-rows: 1fr;
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+   }
+
+
+   ul.hidden {display: grid;}
+
+
+
+h1
+{
+   font-size: 3.5em;
+}
+
+h2 {
+   font-size: 2.5em;
+}
+
+p{
+   font-size: 1.6em;
+}
+
+nav ul li a{
+   font-size: 1.7em
+}
+
+nav ul.hidden {display: grid;}
+
+}

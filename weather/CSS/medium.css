@@ -1,0 +1,43 @@
+@media only screen and (min-width: 470px) and (max-width: 719px){
+     button {display:none}
+  
+
+    ul {display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    }
+  
+  ul li a{border: 1px solid rgba(205, 205, 0, .3);}
+    
+
+
+    ul.hidden {display: grid;}
+
+    .br{
+        grid-column: 1 / span 2;
+    }
+    .br1{
+        grid-column: 3 / span 5;
+    }
+
+h1
+{
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.1em;
+}
+
+nav ul li a{
+    font-size: 1.2em
+}
+
+nav ul.hidden {display: grid;}
+
+}
