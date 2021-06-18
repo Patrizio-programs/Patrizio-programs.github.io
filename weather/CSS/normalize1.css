@@ -27,10 +27,22 @@ h3 {
   margin: 0;
 }
 
-picture img {
+#logo
+{
   width: 51px;
   height: 51px;
   margin: 5px;
+
+}
+picture img {
+  width: 100%;
+  height: auto;
+
+}
+
+.hero
+{
+  height: auto;
 }
 #flexbox {
   display: flex;
