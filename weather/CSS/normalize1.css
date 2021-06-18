@@ -43,6 +43,7 @@ picture img {
 .hero
 {
   height: auto;
+  margin: 0;
 }
 #flexbox {
   display: flex;
