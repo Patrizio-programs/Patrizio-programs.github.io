@@ -61,7 +61,7 @@ picture img {
   display: flex;
   align-items: center;
   justify-content: left;
-
+  margin: 30px;
   max-width: 100%;
 }
 
@@ -116,8 +116,13 @@ main{
 
 footer{
   color: #cdcd00;
-
 }
+
+#social{
+  display:none;
+}
+
+
 
 #FI{
   height: auto;
