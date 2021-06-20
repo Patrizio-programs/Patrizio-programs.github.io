@@ -7,7 +7,6 @@ html{
   flex-direction: column;
   color: #cdcd00;
   margin: 0;
-  
 }
 
 h1.Site-Head {
@@ -25,6 +24,12 @@ h2 {
 
 h3 {
   font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 1em;
+}
+
+p{
+  color: #1a009c;
+  font-family: 'Biryani', sans-serif;
   font-size: 1em;
 }
 
