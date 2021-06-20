@@ -39,6 +39,14 @@ h3{
     font-size: 1.5em;
 }
 
+
+#icon-cast{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 15px;
+  }
+
 p{
     font-size: 1.1em;
 }
@@ -60,6 +68,17 @@ picture img {
     height: 100%;
     margin: 5px;
 
+}
+
+#FI{
+    display: none;
+}
+
+#FI2{
+    height: auto;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: auto;
 }
 
 .hero{

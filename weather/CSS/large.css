@@ -30,6 +30,14 @@ p{
    font-size: 1.6em;
 }
 
+
+#icon-cast{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr;
+   grid-gap: 15px;
+ }
+
 nav ul li a{
    font-size: 1.7em;
    padding: 1.2rem 3%;
@@ -48,6 +56,18 @@ picture img {
    height: 100%;
    margin: 5px;
 
+}
+
+
+#FI{
+   display: none;
+}
+
+#FI2{
+   height: auto;
+ width: 50%;
+
+ margin-right: auto;
 }
 
 .hero{
