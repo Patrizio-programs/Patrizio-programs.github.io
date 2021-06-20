@@ -40,14 +40,24 @@ h3{
 }
 
 
+#weather-content{
+    display: none;
+ }
+
+
 #icon-cast{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-gap: 15px;
-    margin: 20px;
-   padding: 20px;
-
+    font-size: 20px;
+    justify-self: center;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    background-color: grey;
+    color: white;
   }
 
 p{
@@ -80,6 +90,9 @@ footer{
     
  }
 
+
+ 
+
 #social{
  display: inline-block;
     grid-row: 3/ span 4;
@@ -90,6 +103,10 @@ footer{
  grid-column:2/ span 3;
 
 
+}
+
+#hero-text{
+    display: none;;
 }
   
 
