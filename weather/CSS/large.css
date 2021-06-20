@@ -107,16 +107,17 @@ footer picture{
    grid-column:2/ span 3;
   
   
-  }
-
-  #social{
-   grid-row: 2;
-   grid-column: 2/ span 3;
 }
 
 
+
+
+
+
 #social{
-   display:inline;
+   display: inline;
+   grid-row: 2;
+   grid-column: 2/ span 3;
  }
 
 
