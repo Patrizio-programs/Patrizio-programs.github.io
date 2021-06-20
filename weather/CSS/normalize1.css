@@ -30,7 +30,7 @@ h3 {
 p{
   color: #1a009c;
   font-family: 'Biryani', sans-serif;
-  font-size: 1em;
+  font-size: .7em;
 }
 
 #motto{
@@ -108,6 +108,18 @@ main{
   max-width: 100%;
   background-color: white;
   margin: 0 auto;
+}
+
+footer{
+  color: #cdcd00;
+
+}
+
+#FI{
+  height: auto;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: auto;
 }
 
 
