@@ -120,6 +120,22 @@ main{
   margin: 0 auto;
 }
 
+#article
+{
+  border: 1px solid #9E0E0E;
+  background-color: #F5F5F5;
+  padding: 10px;
+}
+
+#article-pic
+{
+  display: block;
+  max-width: 80%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 footer{
   color: #cdcd00;
 }

@@ -106,7 +106,12 @@ footer picture{
    grid-row: 1;
    grid-column:2/ span 3;
   
-  
+}
+
+#article-pic
+{
+   float: right;
+   max-width: 70%;
 }
 
 
