@@ -72,9 +72,7 @@ picture img {
 
 
 
-#relative{
-   position: relative;
-}
+
 #hero-text{
    display: inherit;
    position: absolute;
@@ -84,6 +82,8 @@ picture img {
    background-color: black;
    padding: 10px;
    font-size: 15px;
+   opacity: .8;
+   width: 240px;
 
 }
 
@@ -110,11 +110,12 @@ footer picture{
 
 #article-pic
 {
-   float: right;
-   max-width: 70%;
+
+   position: absolute;
+   right: 5px;
+   height: auto;
+   word-wrap: inherit;
 }
-
-
 
 
 
