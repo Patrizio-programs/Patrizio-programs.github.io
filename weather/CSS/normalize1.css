@@ -97,18 +97,21 @@ picture img {
   display: inline-table;
   column-count: 5;
   font-size: 18px;
-  padding: 10px;
-  width: 100%;
-  height: auto;
-  background-color: grey;
+  padding: 5px;
+  justify-content: space-evenly;
+  height: fit-content;
+  width: 98%;
+  background-color: whitesmoke;
   color: #9E0E0E;
   border: 1px solid #9E0E0E;
+  margin: auto;
 }
 
 .icon-column 
 {
   margin: 10px;
   padding: 10px;
+  border: 1px solid black;
 
 }
 
@@ -140,6 +143,7 @@ ul li a{
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: .8em;
   text-align: center;
+  width: 100%;
   
 }
 
@@ -155,19 +159,23 @@ main{
   padding: 10px;
   max-width: 100%;
   background-color: white;
-  margin: 0 auto;
+  margin: 0 auto ;
+  
 }
 
 #article
 {
+
   border: 1px solid #9E0E0E;
-  background-color: #F5F5F5;
+  background-color: whitesmoke;
   padding: 10px;
   height: fit-content;
+
 }
 
 #article-pic
 {
+  
   display: block;
   max-width: 80%;
   height: auto;
@@ -190,6 +198,9 @@ footer{
 }
 
 
+.iconify { width: 64px; height: 64px; }
+
+
 
 #FI{
   height: auto;
@@ -206,7 +217,7 @@ footer{
 #FI2{
   display: block;
 }
-.iconify { width: 64px; height: 64px; }
+
 
 
 
@@ -237,7 +248,7 @@ footer{
  */
 
 body {
-  margin: 0;
+  margin: 20px;
 }
 
 /**
