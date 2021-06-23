@@ -3,7 +3,7 @@
   
 
     ul {display: grid;
-        grid-template-rows: 1fr;
+        grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     
     }
@@ -40,17 +40,13 @@ h3{
 }
 
 
-#weather-content{
-    display: none;
- }
-
 
  #icon-cast{
     display: inline-table;
     column-count: 5;
     font-size: 18px;
-    padding: 5px;
-    width: 97%; 
+    padding: 0;
+    width: 100%;
     margin: auto;
     height: fit-content;
     background-color: whitesmoke;
@@ -75,7 +71,7 @@ nav ul li a{
 
 }
 ul li a{
-    padding: 1rem 3%;
+    padding: 1rem 0%;
 }
 
 

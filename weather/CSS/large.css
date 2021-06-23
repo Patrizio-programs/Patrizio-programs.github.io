@@ -37,8 +37,8 @@ p{
    flex-direction: row;
    justify-content: space-evenly;
    font-size: 18px;
-   padding: 5px;
-   width: 97%; 
+   padding: 0;
+   width: 100%; 
    margin: auto;
    height: 300px;
    background-color: whitesmoke;
@@ -55,12 +55,13 @@ p{
 
 nav ul li a{
    font-size: 1.7em;
-   padding: 1.2rem 3%;
+
 
 }
 
 ul li a{
-   padding: 1rem 3%;
+ 
+   padding: 1rem 0%;
    font-size: 1.2em;
 }
 
@@ -73,9 +74,6 @@ picture img {
 
 }
 
-#weather-content{
-   display: none;
-}
 
 
 
