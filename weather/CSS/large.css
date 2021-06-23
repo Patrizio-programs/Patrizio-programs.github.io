@@ -118,10 +118,10 @@ footer picture{
 #article-pic
 {
   
-  float: right;
+  float: initial;
   margin: 10px;
-   height: 300px;
-   width:auto;
+   height: 200px;
+   width: auto;
    bottom: 10px;
    
 }
