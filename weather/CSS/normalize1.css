@@ -36,7 +36,7 @@ p{
 #motto{
   margin: 0;
   font-style: italic;
-  font-size: 1.6em;
+  font-size: 1.5em;
 }
 
 #logo
@@ -246,6 +246,7 @@ footer{
 
 body {
   margin: 20px;
+  margin-bottom: 0;
 }
 
 /**
