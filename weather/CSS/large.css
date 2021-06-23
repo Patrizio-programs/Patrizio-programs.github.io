@@ -32,18 +32,25 @@ p{
 
 
 #icon-cast{
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-   grid-template-rows: 1fr;
-   grid-gap: 15px;
-   font-size: 20px;
-   justify-self: center;
-   margin-top: 20px;
-   margin-left: 5%;
-   margin-right: 5%;
-   width: 90%;
-   background-color: grey;
-   color: white;
+   display: inline-flex;
+   column-count: 5;
+   flex-direction: row;
+   justify-content: space-evenly;
+   font-size: 18px;
+   padding: 10px;
+   width: 100%;
+   height: 300px;
+   background-color: whitesmoke;
+   color: #9E0E0E;
+   border: 1px solid #9E0E0E;
+
+ }
+
+ .icon-column 
+ {
+   margin: 10px;
+   padding: 10px;
+   
  }
 
 nav ul li a{
@@ -112,9 +119,7 @@ footer picture{
 {
 
    position: absolute;
-   right: 5px;
-   height: auto;
-   word-wrap: inherit;
+   
 }
 
 
