@@ -38,7 +38,7 @@ p{
    justify-content: space-evenly;
    font-size: 18px;
    padding: 5px;
-   width: 98%;
+   width: 97%; 
    margin: auto;
    height: 300px;
    background-color: whitesmoke;
@@ -120,7 +120,7 @@ footer picture{
   
   float: initial;
   margin: 10px;
-   height: 200px;
+   height: 300px;
    width: auto;
    bottom: 10px;
    
