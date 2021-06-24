@@ -194,6 +194,15 @@ footer{
   display:none;
 }
 
+#banner{
+  background-color:rgba(205, 205, 0, .8);
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  margin: auto;
+}
 
 .iconify { width: 64px; height: 64px; }
 
