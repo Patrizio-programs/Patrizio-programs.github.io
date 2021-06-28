@@ -35,6 +35,24 @@ const y = new Date();
 
     showBanner();
 
+    function windchill(){
+
+        var tempC = document.getElementById("tempC").innerHTML;
+        var speed = document.getElementById("speed").innerHTML;
+        var result;
+        var tempF;
+        tempC = parseFloat(tempC);
+        speed = parseFloat(speed);
+
+        tempF = tempC * 1.8 + 32;
+
+        result = 35.74 + 0.6215 * tempF - 35.75 * speed **0.16 + 0.4275 * tempF * speed **0.16;
+        document.getElementById('windchill').innerHTML = result.toFixed(2) + " °F";
+    
+
+    }
+    windchill();
+
 
 
 function toggleMenu(){
