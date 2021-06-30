@@ -1,0 +1,57 @@
+@media only screen and (min-width: 519px) and (max-width: 719px) {
+
+
+    #photos img {
+        max-width: 45%;
+    }
+
+    #photos {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    button {display:none}
+  
+
+    ul {display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    }
+
+    ul li a{border: 1px solid rgba(205, 205, 0, .3);
+        font-size: 1.1em;
+        
+    
+    
+    }
+        
+    
+    
+        ul.hidden {display: grid;}
+    
+        .br{
+            grid-column: 1 / span 2;
+        }
+        .br1{
+            grid-column: 3 / span 5;
+        }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

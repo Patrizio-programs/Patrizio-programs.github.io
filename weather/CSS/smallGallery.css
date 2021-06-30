@@ -1,0 +1,36 @@
+#photos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+
+#photos img {
+    display: block;
+    max-width: 100%;
+    height:auto;
+
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+#photos img:hover {
+    box-shadow: 3px 5px #cdcd00;
+}
+
+figure{
+    
+    
+    margin-left: 5px;
+    margin-right: 5px;
+    
+
+}
+
+figcaption{
+    text-align:center;
+    background-color:black;
+    color: #cdcd00;
+    margin: 5px;
+}
