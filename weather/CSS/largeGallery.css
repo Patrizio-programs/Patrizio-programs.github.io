@@ -3,6 +3,7 @@
 
     #photos {
         grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px;
 
     }
 
@@ -44,10 +45,13 @@
  
  p{
     font-size: 1.6em;
+
+
+
+    
  }
 
-}
-
+ 
 nav ul li a{
     font-size: 1.7em;
  
@@ -59,4 +63,10 @@ nav ul li a{
     padding: 1rem 0%;
     font-size: 1.2em;
  }
+
+ figure:hover{
+    box-shadow: 5px 5px 5px 5px grey;
+}
  
+
+}

@@ -16,7 +16,7 @@
 }
 
 #photos img:hover {
-    box-shadow: 3px 5px #cdcd00;
+   
 }
 
 figure{
@@ -24,13 +24,15 @@ figure{
     
     margin-left: 5px;
     margin-right: 5px;
+  
     
 
 }
+
 
 figcaption{
     text-align:center;
     background-color:black;
     color: #cdcd00;
-    margin: 5px;
+    margin: 3px;
 }
