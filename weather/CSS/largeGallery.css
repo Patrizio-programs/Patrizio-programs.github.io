@@ -68,5 +68,8 @@ nav ul li a{
     box-shadow: 5px 5px 5px 5px grey;
 }
  
+#social{
+    display: block;
+}
 
 }
