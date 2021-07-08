@@ -24,6 +24,9 @@ fetch(requestURL)
             let yf = document.createElement('p');
             yf.textContent = "Year Founded: " +towns[i].yearFounded;
             stat.appendChild(yf);
+            let image= document.createElement('img')
+            image.setAttribute('src', towns[i].photo);
+            stat.appendChild(image)
 
         }
 
