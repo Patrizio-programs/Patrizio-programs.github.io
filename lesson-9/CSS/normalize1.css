@@ -2,13 +2,6 @@ html{
   background-color: #006400;
 }
 
-main section{
-  background-color: #cdcd00;
-  display: grid;
-	grid-template-columns: 1fr 1fr;
-  max-width: fit-content;
-}
-
 .Site-Head {
   display: flex;
   flex-direction: column;
