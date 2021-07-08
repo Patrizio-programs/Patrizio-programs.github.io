@@ -14,7 +14,7 @@ fetch(requestURL)
         {
 
             let stat = document.createElement('section');
-            let art = document.createElement('article');
+            let art = document.createElement('div');
             stat.appendChild(art);
             let h3 = document.createElement('h3');
             h3.textContent = towns[i].name;
