@@ -8,6 +8,10 @@
    
    }
 
+   .mapouter{
+      display: block;
+    }
+
 
    ul.hidden {display: grid;}
 

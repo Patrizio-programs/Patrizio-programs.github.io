@@ -2,6 +2,10 @@ html{
   background-color: #006400;
 }
 
+.mapouter{
+  display: none;
+}
+
 .Site-Head {
   display: flex;
   flex-direction: column;
@@ -207,16 +211,6 @@ footer{
 
 
 
-#FI{
-  height: auto;
-  width: 70%;
-  margin-left: 15%;
-  margin-right: auto;
-}
-
-#FI2{
-  display: none;
-}
 
 @media only screen and (min-width: 470px){
 #FI2{
