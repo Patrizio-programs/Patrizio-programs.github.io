@@ -42,7 +42,7 @@
       },
       {
         "name": "Franklin",
-        "photo": "franklin.jpg",
+        "photo": "images/franklin.jpg",
         "motto": "Where you will grow!",
         "yearFounded": 1788,
         "currentPopulation": 30458,
@@ -55,7 +55,7 @@
       },
       {
         "name": "Greenville",
-        "photo": "greenville.jpg",
+        "photo": "images/greenville.jpg",
         "motto": "Green is our way of life.",
         "yearFounded": 1805,
         "currentPopulation": 33458,
@@ -69,7 +69,7 @@
       },
       {
         "name": "Placerton",
-        "photo": "placerton.jpg",
+        "photo": "images/placerton.jpg",
         "motto": "Positive Placement in Placerton.",
         "yearFounded": 1946,
         "currentPopulation": 512,
@@ -81,7 +81,7 @@
       },
       {
         "name": "Preston",
-        "photo": "preston.jpg",
+        "photo": "images/preston.jpg",
         "motto": "Home of Napoleon Dynamite.",
         "yearFounded": 1866,
         "currentPopulation": 5204,
