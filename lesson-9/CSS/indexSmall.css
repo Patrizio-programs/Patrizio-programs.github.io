@@ -1,12 +1,22 @@
+
+div.stats{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
 main section{
     background-color: #cdcd00;
     max-width: fit-content;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    margin: 5px;
+    
   }
   
   main section img{
     max-width: 100%;
     height: auto;
+    
   }
+
+
+
   
