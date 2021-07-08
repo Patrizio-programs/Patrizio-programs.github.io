@@ -14,12 +14,12 @@ fetch(requestURL)
         {
 
             let stat = document.createElement('section');
-            let art = document.createElement('div');
+            let art = document.createElement('article');
             stat.appendChild(art);
+            document.querySelector('div.stats').appendChild(stat);
             let h3 = document.createElement('h3');
             h3.textContent = towns[i].name;
             art.appendChild(h3);
-            document.querySelector('div.stats').appendChild(stat);
             let m = document.createElement('p');
             m.textContent = towns[i].motto;
             art.appendChild(m);
