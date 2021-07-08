@@ -24,7 +24,7 @@ fetch(requestURL)
           m.textContent = towns[i].motto;
           art.appendChild(m);
           let yf = document.createElement('p');
-          yf.textContent = "Year Founded: " +towns[i].yearFounded;
+          yf.textContent = "Year Founded: " + towns[i].yearFounded;
           art.appendChild(yf);
           let pop = document.createElement('p');
           pop.textContent =  "Population: "+ towns[i].currentPopulation;
