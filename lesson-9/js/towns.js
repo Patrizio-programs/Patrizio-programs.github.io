@@ -26,6 +26,12 @@ fetch(requestURL)
           let yf = document.createElement('p');
           yf.textContent = "Year Founded: " +towns[i].yearFounded;
           art.appendChild(yf);
+          let pop = document.createElement('p');
+          pop.textContent =  "Population: "+ towns[i].currentPopulation;
+          art.appendChild(pop);
+          let rf = document.createElement('p');
+          rf.textContent = "Annual Rainfall: " + towns[i].averageRainfall
+          art.appendChild(rf);
           let image= document.createElement('img')
           image.setAttribute('src', towns[i].photo);
           stat.appendChild(image);

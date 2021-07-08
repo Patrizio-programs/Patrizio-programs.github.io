@@ -22,6 +22,10 @@
         grid-column: 1;
 	    grid-row: 1;
     }
+
+    main p{
+        font-size: .8em;
+    }
     
 
 }
