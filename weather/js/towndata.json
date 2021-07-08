@@ -2,7 +2,7 @@
     "towns": [
       {
         "name": "Soda Springs",
-        "photo": "https://patrizio-programs.github.io/weather/images/sodasprings.jpg",
+        "photo": "images/sodasprings.jpg",
         "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
         "yearFounded": 1858,
         "currentPopulation": 2985,
