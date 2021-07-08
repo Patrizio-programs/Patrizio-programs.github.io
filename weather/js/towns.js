@@ -1,5 +1,5 @@
 
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestURL = 'https://patrizio-programs.github.io/weather/js/towndata.json';
 
 fetch(requestURL)
       .then(function (response) {
