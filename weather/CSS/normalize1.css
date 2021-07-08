@@ -4,6 +4,9 @@ html{
 
 main section{
   background-color: #cdcd00;
+  display: flex;
+	flex-wrap: wrap;
+  max-width: 500px;
 }
 
 .Site-Head {

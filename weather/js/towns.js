@@ -14,19 +14,21 @@ fetch(requestURL)
         {
 
             let stat = document.createElement('section');
+            let art = document.createElement('article');
+            stat.appendChild(art);
             let h3 = document.createElement('h3');
             h3.textContent = towns[i].name;
-            stat.appendChild(h3);
+            art.appendChild(h3);
             document.querySelector('div.stats').appendChild(stat);
             let m = document.createElement('p');
             m.textContent = towns[i].motto;
-            stat.appendChild(m);
+            art.appendChild(m);
             let yf = document.createElement('p');
             yf.textContent = "Year Founded: " +towns[i].yearFounded;
-            stat.appendChild(yf);
+            art.appendChild(yf);
             let image= document.createElement('img')
             image.setAttribute('src', towns[i].photo);
-            stat.appendChild(image)
+            stat.appendChild(image);
 
         }
 
