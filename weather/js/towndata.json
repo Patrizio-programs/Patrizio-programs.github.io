@@ -15,7 +15,7 @@
       },
       {
         "name": "Springfield",
-        "photo": "images/springfield.jpg",
+        "photo": "springfield.jpg",
         "motto": "Where everyone is lifted.",
         "yearFounded": 1826,
         "currentPopulation": 17852,
@@ -28,7 +28,7 @@
       },
       {
         "name": "Fish Haven",
-        "photo": "images/fishhaven.jpg",
+        "photo": "fishhaven.jpg",
         "motto": "This is Fish Heaven.",
         "yearFounded": 1864,
         "currentPopulation": 501,
@@ -42,7 +42,7 @@
       },
       {
         "name": "Franklin",
-        "photo": "images/franklin.jpg",
+        "photo": "franklin.jpg",
         "motto": "Where you will grow!",
         "yearFounded": 1788,
         "currentPopulation": 30458,
@@ -55,7 +55,7 @@
       },
       {
         "name": "Greenville",
-        "photo": "images/greenville.jpg",
+        "photo": "greenville.jpg",
         "motto": "Green is our way of life.",
         "yearFounded": 1805,
         "currentPopulation": 33458,
@@ -69,7 +69,7 @@
       },
       {
         "name": "Placerton",
-        "photo": "images/placerton.jpg",
+        "photo": "placerton.jpg",
         "motto": "Positive Placement in Placerton.",
         "yearFounded": 1946,
         "currentPopulation": 512,
@@ -81,7 +81,7 @@
       },
       {
         "name": "Preston",
-        "photo": "images/preston.jpg",
+        "photo": "preston.jpg",
         "motto": "Home of Napoleon Dynamite.",
         "yearFounded": 1866,
         "currentPopulation": 5204,

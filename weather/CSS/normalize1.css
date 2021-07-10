@@ -13,6 +13,41 @@ html{
   margin: 0;
 }
 
+
+#iday0{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#iday1{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#iday2{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#iday3{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#iday4{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#wday{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+
+
 h1.Site-Head {
   font-size: 2em;
   font-family: "Alegreya Sans SC", sans-serif;
@@ -100,8 +135,8 @@ picture img {
   height: fit-content;
   width: 100%;
 
-  background-color: whitesmoke;
-  color: #9E0E0E;
+  background-color: #006400;
+  color: #cdcd00;
   border: 1px solid #9E0E0E;
   margin: auto;
 }

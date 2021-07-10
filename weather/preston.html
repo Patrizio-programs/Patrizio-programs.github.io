@@ -39,7 +39,7 @@
         <nav class="clearfix">
             <ul class="Ham-Menu hidden">
 
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="preston.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
@@ -70,13 +70,12 @@
 
 
             <div id="hero-text">
-                <h4>Sunday</h4>
-                Partly Cloudy <br>
-                Temperature: <span id="tempC">24</span> °C <br>
+                <h4 id="wday"></h4>
+                <span id="description"> Cloudy</span> <br>
+                Temperature: <span id="tempF"></span> °F<br>
 
-                Precipitation: 10% <br>
-                Humidity: 52 % <br>
-                Wind: <span id="speed">6</span> km/h
+                Humidity<span id="hum"> </span> %<br>
+                Wind: <span id="speed"></span>km/h
                 <br>
                 Windchill: <span id="windchill"></span>
             </div>
@@ -85,45 +84,37 @@
 
 
 
-        <br> <br>
+        <br> <br> <br> <br> <br>
 
         <h2>Five Day Forecast</h2>
 
         <div id="icon-cast">
 
             <div class="icon-column">
-                <span class="iconify" data-icon="wi-day-cloudy" data-inline="false">
-                </span> <br> <b> Sunday:</b><br> Partly Cloudy<br> 24 °C <br> Precipitation: 10% <br> Humidity: 52%
-                <br>
-                Wind: 6 km/h
+                <span id="icon0">
+                </span> <br> <span id="iday0"></span> <br> <span id="idescription0"></span><br> <span id="itemp0"></span> <br> 
             </div>
 
             <div class="icon-column">
-                <span class="iconify" data-icon="wi-day-lightning" data-inline="false"></span> <br> <b> Monday:</b>
-                <br> Possible Thunderstorm <br>30 °C <br> Precipitation: 21% <br>
-                Humidity: 79% <br>
-                Wind: 18 km/h
+                <span id="icon1" ></span> <br> <span id="iday1"></span>
+                <br> <span id="idescription1"></span> <br><span id="itemp1"></span> <br>  <br>
+               
             </div>
 
             <div class="icon-column">
-                <span class="iconify" data-icon="wi-day-cloudy" data-inline="false"></span> <br> <b> Tuesday:</b>
-                <br> Partly Cloudy <br> 20 °C <br> Precipitation: 21% <br>
-                Humidity: 63% <br> Wind: 12 km/h
+                <span id="icon2"></span> <br> <span id="iday2"></span>
+                <br><span id="idescription2"></span> <br> <span id="itemp2"></span>  <br> 
             </div>
 
             <div class="icon-column">
-                <span class="iconify" data-icon="wi-horizon-alt" data-inline="false"></span> <br> <b> Wednesday:</b>
-                <br> Sunny <br> 29 °C <br> Precipitation: 10% <br>
-                Humidity: 56% <br>
-                Wind: 8 km/h
+                <span id="icon3"></span> <br> <span id="iday3"></span>
+                <br> <span id="idescription3"></span> <br> <span id="itemp3"></span>  <br>
             </div>
 
             <div class="icon-column">
-                <span class="iconify" data-icon="wi-day-cloudy" data-inline="false"></span><br> <b> Thursday:
-                </b><br> Partly Cloudy <br> 31 °C <br>
-                Precipitation: 10% <br>
-                Humidity: 64% <br>
-                Wind: 10 km/h
+                <span id="icon4"></span><br> <span id="iday4"></span>
+                <br> <span id="idescription4"></span> <br> <span id="itemp4"></span>  <br>
+               
             </div>
 
         </div>
@@ -164,12 +155,14 @@
         </div>
 
 
-        <picture>
-            <img src="images/Preston-map.jpg" alt="map of preston" width="600" height="450" id="FI">
-            <img src="images/preston-large.jpg" alt="map of preston" id="FI2">
-        </picture>
-
-        <div id="social">
+        <div class="mapouter"><div class="gmap_canvas">
+            <iframe width="600" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=preston%20idaho&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br>
+            <style>.mapouter{position:relative;text-align:right;height:450px;width:600px;}</style>
+            <style>.gmap_canvas {overflow:hidden;background:none!important;height:450px;width:600px;}</style></div></div>
+        
+        
+            <div id="social">
 
             <a href="https://touch.facebook.com/?_rdr" target="blank"><img src="images/facebook-icon.png"
                     alt="facebook icon" width="64" height="64"></a>
@@ -183,13 +176,10 @@
 
 
 
-
-
-
-
     </footer>
 
     <div id="footer-bar">
+        Attribution: <a href="//openweathermap.org/">Open Weather Map</a>
         <br>
         &copy; Patrick Medley- 2021
         <br>
