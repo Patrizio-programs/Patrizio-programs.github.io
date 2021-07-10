@@ -51,8 +51,9 @@ h3{
     width: 100%;
     margin: auto;
     height: fit-content;
-    background-color: whitesmoke;
-    color: #9E0E0E;
+    background-color: #006400;
+    color: #cdcd00;
+ 
     border: 1px solid #9E0E0E;
   }
  
@@ -134,7 +135,8 @@ footer{
     background-color: black;
     padding: 5px;
     font-size: 15px;
-    opacity: .8;
+    margin: 5px;
+    opacity: 1;
     
  
  }

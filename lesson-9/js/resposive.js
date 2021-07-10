@@ -79,17 +79,14 @@ fetch(requestURL)
         result = 35.74 + 0.6215 * tempF - 35.75 * speed **0.16 + 0.4275 * tempF * speed **0.16;
         document.getElementById('windchill').innerHTML = result.toFixed(2) + " °F";
 
-        var control = true;
-        var control1 = true;
-        var control2 = true;
-        var control3 = true;
-        var control4 = true;
+        var control = 0;
+        
 
         for(i=0; i < list.length; i++){
             
 
 
-            if(list[i].dt_txt.includes("18:00:00") && (control == true)) {
+            if(list[i].dt_txt.includes("18:00:00") && (control == 0)) {
 
                 
 
@@ -102,37 +99,39 @@ fetch(requestURL)
                 idescription0.textContent = (list[i].weather[0].main);
 
                 let itemp0 = document.getElementById('itemp0');
-                itemp0.textContent =  ('Temp: ' +list[i].main.temp.toFixed(0) + ' F°' )
+                itemp0.textContent =  ('Temp: ' +list[i].main.temp.toFixed(0) + ' F°' );
 
-                control = false;
+            
 
             }
 
-                if(list[i].dt_txt.includes("18:00:00") && (control1 == true)) {
+                if(list[i].dt_txt.includes("18:00:00") && (control == 1)) {
 
                     let icon1 =document.getElementById('icon1');
                     icon =  document.createElement('img');
                     icon.setAttribute('src', 'http://openweathermap.org/img/w/' + list[i].weather[0].icon + '.png');
                     icon1.appendChild(icon);
-                    control1 = false;
+             
                     
                     let idescription1 = document.getElementById('idescription1');
                     idescription1.textContent = (list[i].weather[0].main);
 
                     let itemp1 = document.getElementById('itemp1');
-                    itemp1.textContent =  ('Temp: ' +list[i].main.temp.toFixed(0) + ' F°' )
+                    itemp1.textContent =  ('Temp: ' +list[i].main.temp.toFixed(0) + ' F°' );
 
-                    control = false;
+                          
+
                 }
 
 
-                if(list[i].dt_txt.includes("18:00:00") && (control2 == true)) {
+                if(list[i].dt_txt.includes("18:00:00") && (control == 2)) {
 
                     let icon2 =document.getElementById('icon2');
                     icon =  document.createElement('img');
                     icon.setAttribute('src', 'http://openweathermap.org/img/w/' + list[i].weather[0].icon + '.png');
                     icon2.appendChild(icon);
-                    control2 = false;    
+                   
+   
                     
                     
                     let idescription2 = document.getElementById('idescription2');
@@ -142,51 +141,63 @@ fetch(requestURL)
                     itemp2.textContent =  ('Temp: ' + list[i].main.temp.toFixed(0) + ' F°' )
 
 
-                control = false;
+
+
+        
         
                 }
 
 
-                if(list[i].dt_txt.includes("18:00:00") && (control3 == true)) {
+                if(list[i].dt_txt.includes("18:00:00") && (control == 3)) {
 
                     let icon3 =document.getElementById('icon3');
                     icon =  document.createElement('img');
                     icon.setAttribute('src', 'http://openweathermap.org/img/w/' + list[i].weather[0].icon + '.png');
                     icon3.appendChild(icon);
-                    control3 = false;
-
+                    
 
                     let idescription3 = document.getElementById('idescription3');
                     idescription3.textContent = (list[i].weather[0].main);
 
                     let itemp3 = document.getElementById('itemp3');
-                    itemp3.textContent =  ('Temp: ' +list[i].main.temp.toFixed(0) + ' F°' )
+                    itemp3.textContent =  ('Temp: ' +list[i].main.temp.toFixed(0) + ' F°' );
                     
 
-                    control = false;
+                  
                     
                  
                     
         
                 }
 
-                if(list[i].dt_txt.includes("18:00:00") && (control4 == true)) {
+                if(list[i].dt_txt.includes("18:00:00") && (control == 4)) {
 
                     let icon4 = document.getElementById('icon4');
                     icon =  document.createElement('img');
                     icon.setAttribute('src', 'http://openweathermap.org/img/w/' + list[i].weather[0].icon + '.png');
                     icon4.appendChild(icon);
-                    control4 = false;
-
+                    
                     let idescription4 = document.getElementById('idescription4');
                     idescription4.textContent = (list[i].weather[0].main);
 
                     let itemp4 = document.getElementById('itemp4');
                     itemp4.textContent =  ('Temp: ' +list[i].main.temp.toFixed(0) + ' F°' )
 
-                    control = false;
+            
+
         
                 }
+
+                if (list[i].dt_txt.includes("18:00:00")){
+
+                    control = control + 1;
+
+
+                }
+                else {
+                    control = control + 0;
+                }
+                
         
 
             
