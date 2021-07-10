@@ -1,0 +1,31 @@
+@media only screen and (min-width: 519px) and (max-width: 719px){
+    main section{
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+    }
+
+    div.stats{
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+      }
+
+
+
+      main section img{
+      grid-column: 2;
+    }
+
+    main article{
+        grid-column: 1;
+	    grid-row: 1;
+    }
+
+    main p{
+        font-size: .8em;
+    }
+    
+
+}

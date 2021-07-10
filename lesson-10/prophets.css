@@ -1,0 +1,61 @@
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+ 
+    background-color: grey;
+}
+
+section{
+    max-width: auto;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+}
+
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 100%;
+    width: 347px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+section p{
+    text-align: center;
+}
+section h2{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 650px) {
+
+    
+        .cards{
+            grid-template-columns: 1fr 1fr;
+        }
+    
+}
+
+
+@media only screen and (max-width: 450px) {
+
+
+    .cards{
+        grid-template-columns: 1fr;
+    }
+
+
+
+}
+
+
+

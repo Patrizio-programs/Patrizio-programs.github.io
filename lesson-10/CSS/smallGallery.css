@@ -1,0 +1,35 @@
+#photos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+
+#photos img {
+    display: block;
+    max-width: 100%;
+    height:auto;
+
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+figure{
+    
+    
+    margin-left: 5px;
+    margin-right: 5px;
+  
+    
+
+}
+
+
+figcaption{
+    text-align:center;
+    background-color:black;
+    color: #cdcd00;
+    margin: 3px;
+}
