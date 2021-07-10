@@ -13,6 +13,10 @@ const y = new Date();
    
     document.getElementById("demo").innerHTML = y.getFullYear();
 
+
+    today= document.getElementById('wday');
+    today.innerHTML= days[day.getDay()];
+
    
 
 
@@ -35,26 +39,44 @@ const y = new Date();
 
     showBanner();
 
-    function windchill(){
-
-        var tempC = document.getElementById("tempC").innerHTML;
-        var speed = document.getElementById("speed").innerHTML;
-        var result;
-        var tempF;
-        tempC = parseFloat(tempC);
-        speed = parseFloat(speed);
-
-        tempF = tempC * 1.8 + 32;
-
-        result = 35.74 + 0.6215 * tempF - 35.75 * speed **0.16 + 0.4275 * tempF * speed **0.16;
-        document.getElementById('windchill').innerHTML = result.toFixed(2) + " °F";
-    
-
-    }
-    windchill();
-
-
 
 function toggleMenu(){
     document.getElementsByClassName("Ham-Menu")[0].classList.toggle("hidden");
 }
+
+
+const requestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=030378f61a43abab68b5af20fad45320';
+
+
+fetch(requestURL)
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (jsonObject) {
+        console.table(jsonObject);  // temporary checking for valid response and data parsing
+
+        const list = jsonObject['list'];
+
+
+        let cTemp = document.getElementById('tempF');
+        cTemp.textContent = list[0].main.temp.toFixed(0);
+        let Desc = document.getElementById('description');
+        Desc.textContent = ('Currently: ' + list[0].weather[0].main);
+        let HuM = document.getElementById('hum');
+        HuM.textContent = (' ' + list[0].main.humidity);
+        let wspeed = document.getElementById('speed');
+        wspeed.textContent = list[0].wind.speed;   
+        
+        var tempF = document.getElementById("tempF").innerHTML;
+        var speed = document.getElementById("speed").innerHTML;
+        var result;
+
+        tempF = parseFloat(tempF);
+        speed = parseFloat(speed);
+
+        result = 35.74 + 0.6215 * tempF - 35.75 * speed **0.16 + 0.4275 * tempF * speed **0.16;
+        document.getElementById('windchill').innerHTML = result.toFixed(2) + " °F";
+    
+      })
+
+
