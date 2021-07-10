@@ -114,6 +114,12 @@ picture img {
 
 }
 
+.icon-column img{
+  height: 64px;
+  width: 64px
+  
+}
+
 
 ul {
   list-style-type: none;

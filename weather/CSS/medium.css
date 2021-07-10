@@ -7,7 +7,9 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     
     }
-  
+    .mapouter{
+        display: block;
+      }
   ul li a{border: 1px solid rgba(205, 205, 0, .3);
     font-size: 1.1em;
     

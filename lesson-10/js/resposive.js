@@ -139,7 +139,7 @@ fetch(requestURL)
                     idescription2.textContent = (list[i].weather[0].main);
 
                     let itemp2 = document.getElementById('itemp2');
-                    itemp2.textContent =  ('Temp: ' +list[i].main.temp.toFixed(0) + ' F°' )
+                    itemp2.textContent =  ('Temp: ' + list[i].main.temp.toFixed(0) + ' F°' )
 
 
                 control = false;
@@ -188,12 +188,6 @@ fetch(requestURL)
         
                 }
         
-
-            
-
-
-
-
 
             
         }
