@@ -14,7 +14,7 @@
     <script src="js/towns.js"></script>
 </head>
 
-<body>
+<body onload="showBanner()">
 
     <header id="Branding" class="top-nav">
         <div id="flexbox">
@@ -53,7 +53,7 @@
         <h2>Town Info</h2><br>
 
         <div class="stats"></div>
-        
+
 
 
     </main>
@@ -70,9 +70,11 @@
         <span id="date"></span>
         <span id="demo"></span>
     </div>
-    <script src="js/resposive.js"></script>
+    <script src="js/resposive.js">document.getElementsByClassName("Ham-Menu")[0].classList.toggle("hidden");</script>
 
 
 
 
 </body>
+
+</html>

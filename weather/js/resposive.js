@@ -4,6 +4,13 @@ const d = new Date();
 const y = new Date();
 
 
+
+function toggleMenu(){
+    document.getElementsByClassName("Ham-Menu")[0].classList.toggle("hidden");
+}
+
+window.toggleMenu()= toggleMenu();
+
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     const dayz = [0,1,2,3,4,5,6];
@@ -42,9 +49,7 @@ const y = new Date();
     showBanner();
 
 
-function toggleMenu(){
-    document.getElementsByClassName("Ham-Menu")[0].classList.toggle("hidden");
-}
+
 
 
 const requestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=030378f61a43abab68b5af20fad45320';
