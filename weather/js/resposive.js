@@ -3,7 +3,7 @@ const day = new Date();
 const d = new Date();
 const y = new Date();
 
-
+    let today;
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     const dayz = [0,1,2,3,4,5,6];
@@ -45,6 +45,7 @@ const y = new Date();
 function toggleMenu(){
     document.getElementsByClassName("Ham-Menu")[0].classList.toggle("hidden");
 }
+toggleMenu();
 
 
 const requestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=030378f61a43abab68b5af20fad45320';
@@ -57,7 +58,7 @@ fetch(requestURL)
       .then(function (jsonObject) {
         console.table(jsonObject);  // temporary checking for valid response and data parsing
 
-        const list = jsonObject['list'];
+        const list = jsonObject.list;
 
 
         let cTemp = document.getElementById('tempF');
@@ -82,7 +83,7 @@ fetch(requestURL)
         var control = 0;
         
 
-        for(i=0; i < list.length; i++){
+        for(let i=0; i < list.length; i++){
             
 
 
@@ -91,7 +92,7 @@ fetch(requestURL)
                 
 
                 let icon0 = document.getElementById('icon0');
-                icon = document.createElement('img');
+                let icon = document.createElement('img');
                 icon.setAttribute('src', 'http://openweathermap.org/img/w/' + list[i].weather[0].icon + '.png');
                 icon0.appendChild(icon);
 
@@ -108,7 +109,7 @@ fetch(requestURL)
                 if(list[i].dt_txt.includes("18:00:00") && (control == 1)) {
 
                     let icon1 =document.getElementById('icon1');
-                    icon =  document.createElement('img');
+                    let icon =  document.createElement('img');
                     icon.setAttribute('src', 'http://openweathermap.org/img/w/' + list[i].weather[0].icon + '.png');
                     icon1.appendChild(icon);
              
@@ -127,7 +128,7 @@ fetch(requestURL)
                 if(list[i].dt_txt.includes("18:00:00") && (control == 2)) {
 
                     let icon2 =document.getElementById('icon2');
-                    icon =  document.createElement('img');
+                    let icon =  document.createElement('img');
                     icon.setAttribute('src', 'http://openweathermap.org/img/w/' + list[i].weather[0].icon + '.png');
                     icon2.appendChild(icon);
                    
@@ -138,12 +139,8 @@ fetch(requestURL)
                     idescription2.textContent = (list[i].weather[0].main);
 
                     let itemp2 = document.getElementById('itemp2');
-                    itemp2.textContent =  ('Temp: ' + list[i].main.temp.toFixed(0) + ' F°' )
+                    itemp2.textContent =  ('Temp: ' + list[i].main.temp.toFixed(0) + ' F°' );
 
-
-
-
-        
         
                 }
 
@@ -151,7 +148,7 @@ fetch(requestURL)
                 if(list[i].dt_txt.includes("18:00:00") && (control == 3)) {
 
                     let icon3 =document.getElementById('icon3');
-                    icon =  document.createElement('img');
+                    let icon =  document.createElement('img');
                     icon.setAttribute('src', 'http://openweathermap.org/img/w/' + list[i].weather[0].icon + '.png');
                     icon3.appendChild(icon);
                     
@@ -162,10 +159,6 @@ fetch(requestURL)
                     let itemp3 = document.getElementById('itemp3');
                     itemp3.textContent =  ('Temp: ' +list[i].main.temp.toFixed(0) + ' F°' );
                     
-
-                  
-                    
-                 
                     
         
                 }
@@ -173,7 +166,7 @@ fetch(requestURL)
                 if(list[i].dt_txt.includes("18:00:00") && (control == 4)) {
 
                     let icon4 = document.getElementById('icon4');
-                    icon =  document.createElement('img');
+                    let icon =  document.createElement('img');
                     icon.setAttribute('src', 'http://openweathermap.org/img/w/' + list[i].weather[0].icon + '.png');
                     icon4.appendChild(icon);
                     
@@ -181,7 +174,7 @@ fetch(requestURL)
                     idescription4.textContent = (list[i].weather[0].main);
 
                     let itemp4 = document.getElementById('itemp4');
-                    itemp4.textContent =  ('Temp: ' +list[i].main.temp.toFixed(0) + ' F°' )
+                    itemp4.textContent =  ('Temp: ' +list[i].main.temp.toFixed(0) + ' F°' );
 
             
 
@@ -203,9 +196,8 @@ fetch(requestURL)
             
         }
 
-          
-        iday = document.getElementById('iday0');
-        currentDay = dayz[day.getDay()];
+        let iday = document.getElementById('iday0');
+        let currentDay = dayz[day.getDay()];
         if (currentDay == 6) {
             currentDay = currentDay-6;
 
@@ -221,13 +213,13 @@ fetch(requestURL)
 
 
         iday = document.getElementById('iday1');
-        currentDay = dayz[day.getDay()];
+    
         if (currentDay == 6) {
-            currentDay = currentDay-5;
+            currentDay = currentDay-6;
 
         }
         else{
-            currentDay = currentDay+2;
+            currentDay = currentDay+1;
 
         }
         
@@ -236,13 +228,13 @@ fetch(requestURL)
 
 
         iday = document.getElementById('iday2');
-        currentDay = dayz[day.getDay()];
+        
         if (currentDay == 6) {
-            currentDay = currentDay-4;
+            currentDay = currentDay-6;
 
         }
         else{
-            currentDay = currentDay+3;
+            currentDay = currentDay+1;
 
         }
         
@@ -252,13 +244,13 @@ fetch(requestURL)
         
 
         iday = document.getElementById('iday3');
-        currentDay = dayz[day.getDay()];
+       
         if (currentDay == 6) {
-            currentDay = currentDay-3;
+            currentDay = currentDay-6;
 
         }
         else{
-            currentDay = currentDay+4;
+            currentDay = currentDay+1;
 
         }
     
@@ -266,13 +258,13 @@ fetch(requestURL)
 
 
         iday = document.getElementById('iday4');
-        currentDay = dayz[day.getDay()];
+        
         if (currentDay == 6) {
-            currentDay = currentDay-2;
+            currentDay = currentDay-6;
 
         }
         else{
-            currentDay = currentDay+5;
+            currentDay = currentDay+1;
 
         }
         
@@ -280,6 +272,6 @@ fetch(requestURL)
         iday.innerHTML = days[currentDay];
 
     
-      })
+      });
 
 

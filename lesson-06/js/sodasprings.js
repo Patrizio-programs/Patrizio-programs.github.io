@@ -22,24 +22,7 @@ const y = new Date();
    
 
 
-    function showBanner() {
 
-        let key = days[day.getDay()];
-            if(key =="Friday") {
-
-                document.getElementById("banner").style.display = "block";
-            }
-          else{
-            document.getElementById("banner").style.display = "none";
-
-
-          }
-
-
-
-    }
-
-    showBanner();
 
 
 function toggleMenu(){
@@ -48,7 +31,7 @@ function toggleMenu(){
 toggleMenu();
 
 
-const requestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=030378f61a43abab68b5af20fad45320';
+const requestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=030378f61a43abab68b5af20fad45320';
 
 
 fetch(requestURL)
@@ -196,82 +179,92 @@ fetch(requestURL)
             
         }
 
-        let iday = document.getElementById('iday0');
-        let currentDay = dayz[day.getDay()];
-        if (currentDay == 6) {
-            currentDay = currentDay-6;
-
-        }
-        else{
-            currentDay = currentDay+1;
-
-        }
-        
-        
-        iday.innerHTML = days[currentDay];
-
-
-
-        iday = document.getElementById('iday1');
-    
-        if (currentDay == 6) {
-            currentDay = currentDay-6;
-
-        }
-        else{
-            currentDay = currentDay+1;
-
-        }
-        
-        iday.innerHTML = days[currentDay];
-
-
-
-        iday = document.getElementById('iday2');
-        
-        if (currentDay == 6) {
-            currentDay = currentDay-6;
-
-        }
-        else{
-            currentDay = currentDay+1;
-
-        }
-        
-      
-        iday.innerHTML = days[currentDay];
-
-        
-
-        iday = document.getElementById('iday3');
-       
-        if (currentDay == 6) {
-            currentDay = currentDay-6;
-
-        }
-        else{
-            currentDay = currentDay+1;
-
-        }
-    
-        iday.innerHTML = days[currentDay];
-
-
-        iday = document.getElementById('iday4');
-        
-        if (currentDay == 6) {
-            currentDay = currentDay-6;
-
-        }
-        else{
-            currentDay = currentDay+1;
-
-        }
-        
-
-        iday.innerHTML = days[currentDay];
-
     
       });
+
+
+      
+          
+      let iday = document.getElementById('iday0');
+      currentDay = dayz[day.getDay()];
+      if (currentDay == 6) {
+          currentDay = currentDay-6;
+
+      }
+      else{
+          currentDay = currentDay+1;
+
+
+      }
+      
+      
+      iday.innerHTML = days[currentDay];
+
+
+
+      iday = document.getElementById('iday1');
+      if (currentDay == 6) {
+          currentDay = currentDay-6;
+
+      }
+      else{
+          currentDay = currentDay+1;
+    
+
+          
+
+      }
+      
+      iday.innerHTML = days[currentDay];
+
+
+
+      iday = document.getElementById('iday2');
+      if (currentDay == 6) {
+          currentDay = currentDay-6;
+
+      }
+      else{
+          currentDay = currentDay+1;
+      
+
+
+      }
+      
+    
+      iday.innerHTML = days[currentDay];
+
+      
+
+      iday = document.getElementById('iday3');
+      if (currentDay == 6) {
+          currentDay = currentDay-6;
+
+      }
+      else{
+          currentDay = currentDay+1;
+  
+
+
+      }
+  
+      iday.innerHTML = days[currentDay];
+
+
+      iday = document.getElementById('iday4');
+      if (currentDay == 6) {
+          currentDay = currentDay-6;
+
+      }
+      else{
+          currentDay = currentDay+1;
+  
+
+
+      }
+      
+
+      iday.innerHTML = days[currentDay];
+
 
 
