@@ -1,8 +1,8 @@
-const m = new Date();
+
 const day = new Date();
 const d = new Date();
 const y = new Date();
-
+const m = new Date();
     let today;
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -48,10 +48,10 @@ function toggleMenu(){
 toggleMenu();
 
 
-const requestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=030378f61a43abab68b5af20fad45320';
+const URL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=030378f61a43abab68b5af20fad45320';
 
 
-fetch(requestURL)
+fetch(URL)
       .then(function (response) {
         return response.json();
       })
