@@ -31,7 +31,7 @@ function toggleMenu(){
 toggleMenu();
 
 
-const requestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=030378f61a43abab68b5af20fad45320';
+const requestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&appid=030378f61a43abab68b5af20fad45320';
 
 
 fetch(requestURL)

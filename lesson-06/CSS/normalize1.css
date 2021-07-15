@@ -2,8 +2,10 @@ html{
   background-color: #006400;
 }
 
-.mapouter{
-  display: none;
+
+
+#footer-bar a{
+  color: white;
 }
 
 .Site-Head {
