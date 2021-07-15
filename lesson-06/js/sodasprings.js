@@ -291,6 +291,5 @@ fetch(requestURL)
                 eventList2.textContent = towns[0].events[2];
                 container.appendChild(eventList2);
 
-
             })  
       
