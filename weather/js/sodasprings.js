@@ -194,7 +194,6 @@ fetch(requestURL)
       else{
           currentDay = currentDay+1;
 
-
       }
       
       
