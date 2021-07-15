@@ -15,6 +15,7 @@
 
    ul.hidden {display: grid;}
 
+   
 
 
 h1
@@ -97,10 +98,12 @@ picture img {
 
 iframe{
    height: 400px;
+   width: 500px;
 }
 
 footer{
    display: grid;
+   grid-template-columns: 500px auto;
    
 }
 footer picture{
@@ -115,6 +118,16 @@ footer picture{
    grid-row: 1;
    grid-column:2/ span 3;
   
+}
+
+#contact h3{
+   font-size: 1.5vw;
+
+}
+
+#contact h2{
+   font-size: 3vw;
+
 }
 
 #article-pic

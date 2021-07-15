@@ -266,4 +266,32 @@ fetch(requestURL)
       iday.innerHTML = days[currentDay];
 
 
+      const URL = 'https://patrizio-programs.github.io/weather/js/towndata.json';
+
+      fetch(URL)
+            .then(function (response) {
+              return response.json();
+            })
+            .then(function (jsonObject) {
+              console.table(jsonObject);  // temporary checking for valid response and data parsing
+      
+              const towns = jsonObject['towns'];
+
+                let container = document.getElementById('event-box');
+                let eventHead = document.createElement('h3');
+                eventHead.textContent = 'Fish Haven Events'
+                container.appendChild(eventHead);
+                let eventList = document.createElement('p');
+                eventList.textContent = towns[2].events[0];
+                container.appendChild(eventList);
+                let eventList1 = document.createElement('p');
+                eventList1.textContent = towns[2].events[1];
+                container.appendChild(eventList1);
+                let eventList2 = document.createElement('p');
+                eventList2.textContent = towns[2].events[2];
+                container.appendChild(eventList2);
+
+            })
+
+
 
