@@ -77,7 +77,11 @@ ul li a{
     padding: 1rem 0%;
 }
 
-
+iframe{
+    height: 400px;
+    width: 400px;
+    margin: 0;
+}
 nav ul.hidden {display: grid;}
 
 picture img {
@@ -89,7 +93,6 @@ picture img {
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr; 
     grid-gap: 10px;    
  }
 

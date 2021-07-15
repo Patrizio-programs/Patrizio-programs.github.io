@@ -95,11 +95,12 @@ picture img {
 
 }
 
+iframe{
+   height: 400px;
+}
+
 footer{
    display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-template-rows: 1fr 1fr; 
-   grid-gap: 10px;
    
 }
 footer picture{
