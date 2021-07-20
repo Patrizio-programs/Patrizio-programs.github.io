@@ -1,0 +1,81 @@
+@media only screen and (min-width: 519px) and (max-width: 719px) {
+
+
+
+    h1 {
+   
+        font-size: 3.5em;
+       
+      }
+      
+      h2 {
+
+        font-size: 2em;
+      
+      }
+      
+      h3 {
+   
+        font-size: 1.5em;
+    
+      }
+      p {
+          font-size: 1em;
+      }
+
+ul#main {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-evenly;
+   border: 1px solid #94110C;
+}
+
+ul#main li a{
+    padding: 10px;
+}
+
+button{
+    display: none;
+}
+
+ul.hidden{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

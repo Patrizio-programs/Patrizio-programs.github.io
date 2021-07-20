@@ -1,0 +1,66 @@
+@media only screen and (min-width: 720px) {
+
+    h1 {
+   
+        font-size: 4em;
+       
+      }
+      
+      h2 {
+
+        font-size: 3em;
+      
+      }
+      
+      h3 {
+   
+        font-size: 2em;
+    
+      }
+
+      p {
+        font-size: 1.5em;
+      }
+
+
+
+      #flexbox {
+          text-align: center;
+          align-items: center;
+      }
+
+    ul#main {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        justify-content: space-evenly;
+   border: 1px solid #94110C;
+
+       
+    }
+    
+    ul#main li a{
+        padding: 15px;
+    }
+    
+    button{
+        display: none;
+    }
+    
+    ul.hidden{
+        display: flex;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
