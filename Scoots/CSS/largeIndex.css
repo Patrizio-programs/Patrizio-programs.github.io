@@ -18,6 +18,12 @@
     
       }
 
+      h4{
+        
+        font-size: 1.7em;
+    
+      }
+
       p {
         font-size: 1.5em;
       }
@@ -51,8 +57,42 @@
         display: flex;
     }
 
+    .social{
+      float: right;
+    }
+
+    #weather{
+      background-color: white;
+      display:flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+
+    #weather div{
+      border: 0;
+    }
 
 
+    #grid-gallery{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-row-gap: 10px;
+      grid-column-gap: 10px;
+      margin: 20px;
+
+  }
+  #grid-gallery figure{
+    justify-content: center;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contact p
+  {
+    font-size: 2em;
+  }
 
 
 
