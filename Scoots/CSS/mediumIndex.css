@@ -89,7 +89,17 @@ ul.hidden{
 
 
 
+  .rentals{
+    display: grid;
 
+  }
+
+
+  .rentals img{
+    width: 100%;
+      height: auto;
+    
+    }
 
 
 

@@ -101,7 +101,17 @@ iframe{
   height: 500px;
 }
 
+.rentals{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 
+}
+
+.rentals img{
+width: 100%;
+  height: auto;
+
+}
 
 
 
