@@ -237,3 +237,13 @@ div.inset{
     }
 
 
+    .tours{
+      border: 1px solid whitesmoke;
+    }
+
+    .tours img{
+      max-width: 100%;
+      height: auto;
+    }
+
+
